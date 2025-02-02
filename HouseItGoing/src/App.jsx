@@ -3,6 +3,7 @@ import Register from "./components/auth/register";
 
 import Header from "./components/header";
 import Home from "./components/home";
+import Compare from "./components/compare";
 import Calculator from "./components/calculator";
 import { useRoutes } from 'react-router-dom';
 import { AuthProvider } from "./Context/authContext";
@@ -26,6 +27,10 @@ function App() {
     {
       path: "/calculator",
       element: <Calculator />,
+    },
+    {
+    path: "/compare",
+    element: <Compare />,
     },
     {
       path: "*",

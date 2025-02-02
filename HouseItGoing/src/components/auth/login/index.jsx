@@ -32,12 +32,12 @@ const Login = () => {
 
     return (
 
-        <div class="bg-neutral-800 flex justify-center items-center ">
+        <div class="bg-neutral-800 flex justify-center items-center overflow-auto">
             {userLoggedIn && (<Navigate to={'/home'} replace={true} />)}
             <div class="w-1/2 h-screen hidden lg:block">
                 <img src="./src/assets/login_main.jpg?w=826" alt="Placeholder Image" class="object-cover w-full h-full"></img>
             </div>
-            <div class="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
+            <div className="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
                 <main className="w-full flex self-center place-content-center place-items-center ">
 
 
