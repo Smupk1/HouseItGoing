@@ -112,7 +112,7 @@ const Register = () => {
             </main>
             </div>
             <div class="w-1/2 h-screen hidden lg:block">
-                <img src="./src/assets/Signup.jpg?w=826" alt="Placeholder Image" class="object-cover w-full h-full"></img>
+                <img src="https://i.imgur.com/8tv8G67.jpeg?w=826" alt="Placeholder Image" class="object-cover w-full h-full"></img>
             </div>
         </div>
     )
