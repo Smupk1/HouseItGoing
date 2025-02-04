@@ -217,7 +217,7 @@ const Calculator = () => {
   const paginatedRows = useMemo(() => rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage), [rows, page, rowsPerPage]);
   return (
 
-    <div style={{ marginTop: '30px' }} className="bg-neutral-800 flex h-screen justify-center   items-center ">
+    <div style={{ marginTop: '30px' }} className="bg-neutral-800 flex h-screen justify-center  overflow-auto  items-center ">
       <Paper style={{ height: '90%', width: '70%', backgroundColor: '#1E1E1E', color: '#E0E0E0' }}>
         <TableContainer style={{ height: 'calc(100% - 56px)', width: '100%' }}>
           <Table stickyHeader>

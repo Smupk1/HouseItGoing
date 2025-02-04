@@ -32,7 +32,7 @@ const Login = () => {
 
     return (
 
-        <div class="bg-neutral-800 flex justify-center items-center overflow-auto">
+        <div class="bg-neutral-800 flex justify-center items-center overflow-auto ">
             {userLoggedIn && (<Navigate to={'/home'} replace={true} />)}
             <div class="w-1/2 h-screen hidden lg:block">
                 <img src="./src/assets/login_main.jpg?w=826" alt="Placeholder Image" class="object-cover w-full h-full"></img>
