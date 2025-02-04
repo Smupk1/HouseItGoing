@@ -42,7 +42,7 @@ function App() {
 
     <AuthProvider>
       <Header />
-    <div className="w-full h-screen flex flex-col">{routesElement}</div>
+    <div style={{ marginTop: '50px' }} className="w-full h-screen flex fixed flex-col">{routesElement}</div>
   </AuthProvider>
   );
 }
